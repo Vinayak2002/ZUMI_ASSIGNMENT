@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ZUMI_ASSIGNMENT</string>
+    <string name="i_agree_to_"><font fgcolor="#1E1E1E">I agree to </font><font fgcolor="#3545D7">Terms of use</font> <font fgcolor="#1E1E1E">and </font> <font fgcolor="#3545D7">Privacy Policy</font> <font fgcolor="#1E1E1E">of \nOneScore and</font> <font fgcolor="#3545D7">CIBIL</font>
+    </string>
+
+    <string name="i_agree_to_2">
+        I agree to Terms of use and Privacy Policy of \nOneScore and CIBIL
+    </string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="linked_to_your_bank_account">Linked to your bank account</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="terms"><![CDATA[I agree to OneScore\'s Terms of Use and Privacy Policy & authorise to communicate via SMS, Email \n& WhatsApp. I hereby request for a copy of my \nCredit Information and/or aggregates on my registered email id or through my OneScore \naccount, and authorise Experian and CIBIL to also provide the same to FPL Technologies Private Limited, on my behalf.]]></string>
+    <string name="score_powered_by">Score Powered by</string>
+    <string name="_91">+91</string>
+    <string name="read_less">Read Less</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="logo">Logo</string>
+</resources>

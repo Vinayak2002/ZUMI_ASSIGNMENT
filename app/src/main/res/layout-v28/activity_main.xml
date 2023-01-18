@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/enter_mobile_number"
+        android:gravity="center"
+        android:textColor="#3545D7"
+        android:textSize="25sp"
+        tools:ignore="PxUsage" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center|center_vertical"
+        android:text="@string/linked_to_your_bank_account"
+        android:textColor="#AAA5A5"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/container">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:text="@string/_91"
+            android:textColor="#1E1E1E "
+            android:textSize="15sp"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:inputType="phone"
+            android:singleLine="false"
+            android:text="@string/mobile_number"
+            android:textColor="#AAA5A5"
+            android:textColorHint="#AAA5A5"
+            android:textSize="15sp"
+            tools:text="@string/mobile_number"
+            android:background="@null"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:background="@drawable/box"
+            />
+
+        <TextView
+            android:id="@+id/i_agree_to_"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/i_agree_to_"
+            android:textColor="#1E1E1E"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="10sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="315dp"
+        android:layout_height="165dp"
+        android:gravity="top"
+        android:text="@string/terms"
+        android:layout_gravity="center"
+        android:lineHeight="20sp"
+        android:textColor="#AAA5A5"
+        android:textSize="35px"
+        android:layout_marginTop="74px"/>
+
+    <TextView
+        android:id="@+id/read"
+        android:layout_width="834px"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="Read Less"
+        android:layout_gravity="center"
+        android:lineHeight="55px"
+        android:textSize="35px"
+        android:textColor="#3545D7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="295px"
+        android:layout_height="43px"
+        android:text="@string/score_powered_by"
+        android:textColor="#AAA5A5"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="35px"
+        android:lineHeight="43.36px"
+        />
+
+    <LinearLayout
+        android:layout_width="880px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="60px"
+        android:layout_marginBottom="20px"
+        android:background="@drawable/container">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="400px"
+            android:layout_height="match_parent"
+            android:layout_margin="0px"
+            android:gravity="center"
+            android:text="GET OTP"
+            android:textColor="#7B7575"
+            android:textSize="50px"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
